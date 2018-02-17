@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Cipher.css" type="text/css"/>
+		<script type="text/javascript" src="ROT13.js"> </script>
+		<title> ROT13 </title>
+	</head>
+
+	<body>
+		<div class="navbar">		
+
+			<p> 
+				<a href= "file:///C:/Users/walle/Desktop/40211497%20set008101%20Coursework1/Index.html">
+				Index </a> 
+			</p>		
+
+			<p> 
+				<a href="file:///C:/Users/walle/Desktop/40211497%20set008101%20Coursework1/Design.html">
+				Design </a> 
+			</p>
+		
+			<p> 
+				<a href= "file:///C:/Users/walle/Desktop/40211497%20set008101%20Coursework1/Caeser%20cipher.html">
+				Caeser cipher </a> 
+			</p>
+
+			<p> 
+				<b> ROT13 </b> 
+			</p>
+
+			<p> 
+				<a href= "file:///C:/Users/walle/Desktop/40211497%20set008101%20Coursework1/Al%20Bhed.html">
+				Al Bhed </a> 
+			</p>
+
+		</div>
+
+		<div class="main">
+			
+			<h1> ROT13 </h1>
+
+			<h3> 
+				ROT13 ("rotate by 13 places") is a simple letter substitution cipher that 
+				replaces a letter with the 13th letter after it, in the alphabet. ROT13 is a special case of the Caesar cipher, 
+				developed in ancient Rome. <br>
+				Because there are 26 letters (2×13) in the basic Latin alphabet, ROT13 is its own inverse; that is, to undo ROT13, 
+				the same algorithm is applied, so the same action can be used for encoding and decoding. The algorithm provides 
+				virtually no cryptographic security, and is often cited as a canonical example of weak encryption. <br>
+				ROT13 is used in online forums as a means of hiding spoilers, punchlines, puzzle solutions, and offensive 
+				materials from the casual glance. ROT13 has been described as the "Usenet equivalent of a magazine printing 
+				the answer to a quiz upside down". ROT13 has inspired a variety of letter and word games on-line, and is 
+				frequently mentioned in newsgroup conversations.
+			</h3>
+
+		</div>
+
+		
+
+		<div class="input_area">
+			<textarea rows="1" cols ="50" autofocus id="message">
+			
+			</textarea>
+			
+			<p>
+				<button type="button" onclick="encodeROT13()" id="encode_button">
+				Encode A Message 
+				</button> 
+			</p>
+
+		<div class="output_area">
+			<h4>
+				This is your encoded message: 
+			
+				<div id="output"> 
+					
+				</div>
+			</h4>
+		</div>
+        </div>
+		
+	</body>
+</html>
