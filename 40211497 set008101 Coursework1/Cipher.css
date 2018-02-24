@@ -25,7 +25,27 @@
     color: black;
 }
 
-.navbar b 
+.fakeNavbar a
+{
+    float: left;
+    display: block;
+    color: #2D2D2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 200%; 
+}
+
+.fakeNavbar
+{
+    overflow:hidden;
+    background-color: #3F5E5A;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 80%; /* Full width */
+}
+
+.navbar b
 {
     float: left;
     display: block;
@@ -40,6 +60,11 @@
 body
 {
 	background-color: #2D2D2A;
+}
+
+body p
+{
+    color: white;
 }
 
 h1
@@ -109,6 +134,24 @@ textarea
 	margin-bottom: 60px;
     background-color: #3F5E5A;
     font-family: sans-serif;
+}
+
+.output_area_design
+{
+	margin-bottom: 30px;
+	width: 50%;
+    color: #2D2D2A;
+}
+
+.input_area_design
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #353831;
+	margin-bottom: 60px;
+    background-color: #3F5E5A;
+    font-family: sans-serif;
+    width: 80.5%;
 
 }
 
