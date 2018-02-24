@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Cipher.css" type="text/css"/>
+		<script type="text/javascript" src="Caeser.js"> </script>
+		<title> Caeser Cipher </title>
+	</head>
+
+	<body>
+		<div class="navbar">			
+			<p> 
+				<a href= "file:///C:/Users/walle/Desktop/Index.html"> Index </a> 
+			</p>	
+
+			<p> 
+				<a href="file:///C:/Users/walle/Desktop/Design.html"> Design </a> 
+			</p>
+		
+			<p> 
+                <b> Caeser Cipher </b> 
+            </p>
+
+			<p> 
+				<a href="file:///C:/Users/walle/Desktop/ROT13.html"> ROT13 </a> 
+			</p>
+
+			<p> 
+				<a href= "file:///C:/Users/walle/Desktop/Al%20Bhed.html"> Al Bhed </a> 
+			</p>
+		</div>
+
+		<div class="main">
+			<h1> Caeser Cipher </h1>			
+
+			<h3>
+				In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a 
+				type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+			</h3>
+		</div>
+
+		<div class="input_area">
+			<textarea rows="1" cols ="50" autofocus id="message">
+			
+			</textarea>
+			
+			<p>
+                <form>
+                    <h4>
+                        Shift cipher by: (-26 to 26):
+                    <input type="number" value="1" min="-26" max="26" id="shiftValue">
+                    </h4>
+                </form>
+				<button type="button" onclick="encodeCaeser()" id="encode_button"> Encode A Message </button> 	
+            </p>
+
+
+		<div class="output_area">
+			<h4>
+				This is your encoded message: 
+			
+				<div id="output"> 
+					
+				</div>
+			</h4>
+		</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,177 @@
+.navbar 
+{
+    overflow: hidden;
+    background-color: #3F5E5A;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar a 
+{
+    float: left;
+    display: block;
+    color: #2D2D2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 200%; 
+}
+
+.navbar a:hover 
+{
+    background: #ddd;
+    color: black;
+}
+
+.fakeNavbar a
+{
+    float: left;
+    display: block;
+    color: #2D2D2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 200%; 
+}
+
+.fakeNavbar
+{
+    overflow:hidden;
+    background-color: #3F5E5A;
+    position: fixed; /* Set the navbar to fixed position */
+    width: 80%; /* Full width */
+}
+
+.navbar b
+{
+    float: left;
+    display: block;
+    color: #2D2D2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 200%; 
+}
+
+body
+{
+	background-color: #2D2D2A;
+}
+
+body p
+{
+    color: white;
+}
+
+h1
+{
+	color: white;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2
+{
+    color: white;
+	margin-left: 10px;
+}
+
+h4
+{
+	color: white;
+	margin-left: 10px;
+}
+
+h3
+{
+	color: white;
+	margin-left: 10px;
+}
+
+.main 
+{
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+textarea 
+{
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	width: 98%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.output
+{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 50px;
+    text-decoration: none;
+    font-family: verdana;
+}
+
+.form
+{
+    color: white;
+	margin-left: 10px;
+}
+
+.input_area
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #353831;
+	margin-bottom: 60px;
+    background-color: #3F5E5A;
+    font-family: sans-serif;
+}
+
+.output_area_design
+{
+	margin-bottom: 30px;
+	width: 50%;
+    color: #2D2D2A;
+}
+
+.input_area_design
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #353831;
+	margin-bottom: 60px;
+    background-color: #3F5E5A;
+    font-family: sans-serif;
+    width: 80.5%;
+
+}
+
+.output_area
+{
+	margin-bottom: 30px;
+	width: 50%;
+    color: #2D2D2A;
+}
+
+
+button
+{
+	margin-left:10px;
+	margin-right: 10px;
+    background-color: #20FC8F;
+    border-color: #2D2D2A;
+}
+
+p1
+{
+	margin-left:10px;
+}
